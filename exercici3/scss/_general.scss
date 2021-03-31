@@ -1,0 +1,19 @@
+/* general */
+
+$white: #fff;
+$lato: "Lato";
+@import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px 0 0 0;
+}
+
+h1 {
+    font-size: 3.5vw;
+    font-weight: 300;
+    color: $white;
+    font-family: $lato;
+}
