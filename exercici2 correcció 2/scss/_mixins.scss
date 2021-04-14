@@ -1,0 +1,11 @@
+
+@mixin animation-timing-function {
+    animation-timing-function: ease-out;
+}
+
+@mixin strip($bgcolor, $aname, $aduration) {
+    background-color: $bgcolor;
+    animation-name: $aname;
+    animation-duration: $aduration;
+    @include animation-timing-function;
+}
